@@ -1,0 +1,328 @@
+body {
+    background-color: #a9a9a947;
+    
+}
+.header {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    justify-content: space-between;
+    padding: 0 48px;
+    position: relative;
+    margin: -8px;
+    
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 20px 30px;
+    background-color: #ffa700ed;
+}
+.w{
+    margin:-45px 65px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.dev{
+    margin:27px 192px;
+    font-size:15px;
+    font-family:sans-serif;
+}
+.parent {
+    margin: 35px 5px;
+    transition: 0.5s;
+}
+.bodysite {
+    animation-name:bod;
+    animation-duration:1s;
+}
+@keyframes bod{
+    from{
+        
+        margin-left:1000px;
+    }
+    to{
+        margin:0;
+    }
+}
+ p{
+     font-family:sans-serif;
+ }
+.click {
+    background: #116dff;
+    border: none;
+    border-radius: 21px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 27px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size:16px;
+    font-family:sans-serif;
+    margin-left:auto;
+}
+
+.p {
+    font-family: sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0px 100px;
+    margin-top:25px;
+    color: #20303c;
+    line-height:1.5;
+    font-weight:400;
+    
+    
+}
+.linkedin{
+    height:50px;
+   width :52px;
+   
+}
+.twitone{
+    height:40px;
+    width:42px;
+}
+.gmail{
+    height:40px;
+    width:42px;
+}
+.g{
+    padding-left:20px
+}
+.pic {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 150px;
+    margin-top: 150px;
+    animation-name:pican;
+    animation-duration:3s;
+}
+@keyframes pican{
+    from{
+        height:100px;
+        width: 100px;
+    }
+    to{
+        height:450px;
+        width:450px;
+    }
+}
+.text{
+    margin-left:650px;
+    margin-top:-400px;
+}
+.hello {
+    font-size: larger;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-top: -1px;
+}
+.about {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -30;
+}
+.paragraph {
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 100;
+}
+.links {
+    margin-left: 620px;
+    margin-top: 45px;
+    font-weight:600;
+}
+.resume {
+    background: #eaab03;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 42px;
+    padding: 40px 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid #554a04;
+    animation-name: an;
+    animation-duration: 9s;
+    animation-name: rescol;
+    animation-duration: 0.5s;
+    animation-iteration-count: 8;
+}
+@keyframes rescol{
+    from {
+        
+        background-color: yellow;
+    }
+    to {
+        background-color: #eaab03;
+    }
+}
+@keyframes an{
+    from{ padding: 20px 5px;}
+    to { padding: 40px 25px;}
+}
+.projects {
+    background: #f53a25;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 42px;
+    padding: 40px 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid #530404;
+    animation-name: an1;
+    animation-duration: 7s;
+    animation-name: procolo;
+    animation-duration: 1s;
+    animation-iteration-count: 6;
+}
+@keyframes procolo{
+    from {
+        background-color: blue;
+        
+    }
+    to {
+        background-color: #f53a25;
+    }
+}
+@keyframes an1 {
+    from {
+        padding: 20px 5px;
+    }
+
+    to {
+        padding: 40px 25px;
+    }
+}
+.contact {
+    background: #77dadd;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 42px;
+    padding: 40px 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid #4f9da2;
+    animation-name: an2;
+    animation-duration: 5s;
+    animation-name: cocol;
+    animation-duration: 1.5s;
+    animation-iteration-count: 5;
+}
+@keyframes cocol{
+    from {
+        background-color: red;
+        
+    }
+    to {
+        background-color: #77dadd;
+    }
+}
+@keyframes an2 {
+    from {
+        padding: 20px 5px;
+    }
+
+    to {
+        padding: 40px 25px;
+    }
+}
+a.resume:hover{
+    background:none;
+    transition: 0.5s;
+
+}
+a.projects:hover {
+    background: none;
+    transition: 0.5s;
+}
+a.contact:hover {
+    background: none;
+    transition: 0.5s;
+}
+.footer{
+    height:110px;
+}
+.phone{
+    margin-left:50px;
+    font-weight:600;
+    font-size:19px;
+}
+.number{
+    margin-left:48px;
+    margin-top:-10px;
+    font-size:16px;
+}
+.email{
+    font-weight:600;
+    font-size:23px;
+    margin-left:500px;
+    margin-top: -62px;
+    font-family:auto;
+}
+.em {
+    margin-left: 498px;
+    margin-top: -13px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.m{
+    text-decoration-line:none;
+    color:black;
+
+}
+.icons {
+    margin-left: 900px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -48px;
+}
+.github{
+    margin-left:900px;
+    margin-top:-10px;
+}
+.gitimg{
+    height:26px;
+    width:26px;
+
+}
+.twitter {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.twitimg {
+    height: 26px;
+    width: 26px;
+}
+.li {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.liimg {
+    height: 26px;
+    width: 26px;
+}
